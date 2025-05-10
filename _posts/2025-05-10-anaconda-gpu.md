@@ -10,7 +10,7 @@ search: true # 검색기능에 나오게 할건지 여부
 
 ## Anaconda GPU 영상
 
-<!-- {% include video id="" provider="youtube" %} -->
+{% include video id="KB14Hg1oPkE" provider="youtube" %}
 
 ## Anaconda 다운로드
 
