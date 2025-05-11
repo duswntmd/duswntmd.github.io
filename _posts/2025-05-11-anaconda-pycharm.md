@@ -10,7 +10,7 @@ search: true # 검색기능에 나오게 할건지 여부
 
 ## Anaconda PyCharm 영상
 
-<!-- {% include video id="" provider="youtube" %} -->
+{% include video id="DaoDRmNPQfA" provider="youtube" %}
 
 ## PyCharm 무료와 유료
 
@@ -32,6 +32,35 @@ search: true # 검색기능에 나오게 할건지 여부
 New Project 클릭
 
 jupyter notebook 생성
+
+아래 세팅 코드를 넣어서 실행 시 오류가 날겁니다.
+코드를 넣어주시고 아래 PyCharm과 Anaconda 연동 항목을 실행해주시면 됩니다.
+
+## Jupyter notebook 세팅
+
+jupyter notebook 들어가기 테스트
+
+```
+print("hi")
+```
+
+```
+import sys
+ 
+cdPyVer = 0x600
+cdSysVer = sys.version[:5]
+print("%s%s" %("my python version is: ", cdSysVer))
+```
+
+```
+pip install "numpy<2"
+```
+
+```
+import tensorflow as tf
+print("TensorFlow 버전:", tf.__version__)
+print("GPU 감지됨:", tf.config.list_physical_devices('GPU'))
+```
 
 ## PyCharm과 Anaconda 연동
 
