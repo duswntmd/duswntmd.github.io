@@ -13,7 +13,7 @@ search: true # 검색기능에 나오게 할건지 여부
 
 ## Web Screen 영상
 
-
+{% include video id="AKP9lBumVAo" provider="youtube" %}
 
 ## 1. 인텔리제이 설치
 
@@ -46,8 +46,8 @@ https://download.oracle.com/java/24/latest/jdk-24_windows-x64_bin.zip 저는 zip
 
 [![자바환경변수편집]({{site.url}}/images/2025-05-15-web-screen/자바환경변수편집.png)]({{site.url}}/images/2025-05-15-web-screen/자바환경변수편집.png)
 
-변수 이름 : JAVA_HOME
-변수 값 : <jdk-21폴더 위치>
+변수 이름 : JAVA_HOME    
+변수 값 : jdk-21폴더 위치
 
 PATH클릭 -> 편집 -> 새로 만들기 -> %JAVA_HOME%\bin
 
